@@ -24,9 +24,7 @@
     width: 100%;
 
     font-family: Comfortaa;
-    font-style: normal;
     font-size: calc(38px + 26 * (100vw / 1280));
-    line-height: calc(50px + 48 * (100vw / 1280));;
 
     color: #FFFFFF;
 
@@ -43,8 +41,6 @@
     max-height: 45%;
     
     margin: 7px 0px;
-
-    flex: 1 1 auto;
 }
 #firstVision > .left > .hello > .skills .skill {
     display: inline-flex;
@@ -63,7 +59,6 @@
 
     font-family: Comfortaa;
     font-size: calc(14px + 10 * (100vw / 1280));
-    line-height: 1.1;
     
     color: #FFFFFF;
 }
