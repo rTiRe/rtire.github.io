@@ -1,0 +1,61 @@
+#works > .container {
+    padding: 45px 0 30px 0;
+}
+#works > .container > .work {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #777777;
+    padding: 0 0 25px 0;
+    margin: 25px 0 0 0;
+}
+#works .work:last-child {
+    border-bottom: none;
+}
+#works > .container > .work > .img {
+    width: 25vw;
+    height: calc(25vw/16*10);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCMhqtBgtQrJ0mhY4gTTQ1jVCa9iqQUHC26g&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 0 25px 0 0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#works > .container > .work > .info {
+    width: 55%;
+    max-height: 100%;
+    position: relative;
+    font-family: Manrope;
+}
+#works > .container > .work .name {
+    position: relative;
+    font-size: calc(22px + 10 * (100vw / 1280));
+    color: #FFFFFF;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+#works > .container > .work .tags {
+    margin: 0 0 25px 0;
+}
+#works > .container > .work span {
+    color: #FDAB3D;
+    font-size: calc(12px + 6 * (100vw / 1280));
+    font-weight: 500;
+}
+#works > .container > .work .year {
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: calc(12px + 6 * (100vw / 1280));
+    font-weight: 600;
+    padding: 0 5px;
+    margin: 0 10px 0 0;
+}
+#works > .container > .work .description {
+    color: #EEEEEE;
+    font-size: calc(12px + 6 * (100vw / 1280));
+    font-weight: 500;
+}

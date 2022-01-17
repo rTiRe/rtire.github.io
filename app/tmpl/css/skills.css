@@ -1,0 +1,40 @@
+#skills {
+    position: relative;
+    width: 100%;
+
+    margin-top: 60px;
+}
+
+#skills > .container {
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    width: 100%;
+
+    margin-top: 30px;
+}
+#skills > .container > .skill {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    max-width: 55vw;
+    height: 250px;
+    max-height: 55vw;
+    border-radius: 50%;
+    border: calc(10px + 7 * (100vw / 1280)) solid #FFFFFF;
+    margin: 0 25px 40px 25px;
+    font-family: Manrope;
+
+    color: #FFFFFF;
+    font-size: calc(22px + 12 * (100vw / 1280));
+}
+
+#skills > .container > .skill > .percent {
+    font-size: calc(48px + 12 * (100vw / 1280));
+}
+#skills > .container > .skill > .percent > span {
+    font-size: calc(18px + 8 * (100vw / 1280));
+}
