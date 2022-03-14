@@ -27,6 +27,15 @@ const config = {
             percent: 3,
             color: "#E2445C"
         }
+    },
+
+    myWorks: {
+        Cube: {
+            img: 'light.png',
+            year: '2021',
+            tags: 'Design, HTML',
+            description: 'Lorem ipsum doloe sit amet'
+        }
     }
 }
 export default config;
