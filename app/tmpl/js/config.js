@@ -33,8 +33,8 @@ const config = {
         Cube: {
             img: 'light.png',
             year: '2021',
-            tags: 'Design, HTML',
-            description: 'Lorem ipsum doloe sit amet'
+            tags: 'Design',
+            description: 'My first design experience.'
         }
     }
 }
