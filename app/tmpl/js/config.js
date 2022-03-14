@@ -39,7 +39,7 @@ const config = {
             img: 'light.png',
             year: '2021',
             tags: 'Design',
-            description: 'My first design experience. My first work in Adobe Illustrator'
+            description: 'My first design experience. My first work in Adobe Illustrator.'
         },
         'Coming Soon...': {
             href: 'https://rtire.github.io/ComingSoon/',
