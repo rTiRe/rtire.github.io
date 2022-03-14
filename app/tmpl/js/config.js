@@ -43,7 +43,7 @@ const config = {
         },
         'Coming Soon...': {
             href: 'https://rtire.github.io/ComingSoon/',
-            img: 'comingSoon.png',
+            img: 'ComingSoon.png',
             year: '2022',
             tags: 'HTML, CSS, JS',
             description: 'Countdown to New Year.'
