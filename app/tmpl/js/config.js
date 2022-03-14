@@ -26,6 +26,10 @@ const config = {
         Java: {
             percent: 3,
             color: "#E2445C"
+        },
+        Design: {
+            visibility: 'hidden',
+            color: "#FF642E"
         }
     },
 
@@ -39,7 +43,7 @@ const config = {
         },
         'Coming Soon...': {
             href: 'https://rtire.github.io/ComingSoon/',
-            img: 'ComingSoon.png',
+            img: 'comingSoon.png',
             year: '2022',
             tags: 'HTML, CSS, JS',
             description: 'Countdown to New Year.'
