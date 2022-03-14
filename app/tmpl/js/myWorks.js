@@ -8,8 +8,11 @@ for (var key in config.myWorks) {
             tags[i] = "<span class='tag' style='color:#FFFFFF'>" + tags[i].trim() + "</span>";
         }
     }
-    var div = document.createElement('div');
+    var div = document.createElement('a');
     div.className = "work";
+    if(config.myWorks[key].href != '') {
+        div.href = config.myWorks[key].href;
+    }
     div.innerHTML = "<div class='img' style='background-image: url(\"app/tmpl/img/" + config.myWorks[key].img + "\");'></div>" +
                     "<div class='info'>" +
                         "<p class='name'>" + key + "</p>" +
