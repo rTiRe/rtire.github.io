@@ -30,11 +30,17 @@ const config = {
     },
 
     myWorks: {
-        Cube: {
+        'Cube': {
             img: 'light.png',
             year: '2021',
             tags: 'Design',
             description: 'My first design experience.'
+        },
+        '<a href="https://rtire.github.io/ComingSoon/">Coming Soon...</a>': {
+            img: 'ComingSoon.png',
+            year: '2022',
+            tags: 'HTML, CSS, JS',
+            description: 'Coundown to New Year'
         }
     }
 }
