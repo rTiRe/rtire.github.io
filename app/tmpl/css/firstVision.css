@@ -1,0 +1,159 @@
+.firstVision {
+    width: 100%;
+    height: calc(100vh - 200px);
+    max-height: calc(1080/16*9);
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+.emoji {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.helloWrapper {
+    margin-left: 15px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    height: 100%;
+    width: 100%;
+}
+p span {
+    font-family: 'Comfortaa', cursive;
+    color: #FF7575;
+    line-height: 140%;
+}
+.subtext {
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+    color: #C4C4C4;
+}
+button {
+    margin-top: auto;
+    margin-bottom: 0;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: calc(28px*0.25) calc(28px*1.2);
+    display: flex;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+button > .circle {
+    width: 105px;
+    height: 105px;
+    background-color: #0371d3;
+    border-radius: 48px;
+    position: absolute;
+    top: -25%;
+    left: -7%;
+}
+.twa-point-down {
+    font-size: 18px;
+}
+
+
+
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding: 0 35px 0 0;
+    align-items: flex-end;
+}
+
+.color-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    min-width: 90px;
+    font-size: 1.5vw;
+    border-radius: 30px;
+    color: white;
+}
+.color-block__wrapper {
+    display: flex;
+    gap: 8vw;
+}
+.color-block__wrapper.small-indent {
+    gap: 4vw;
+}
+.color-block > span {
+    white-space: nowrap;
+    padding: 0 20px;
+    width: auto;
+}
+.color-block.small {
+    min-width: 45px;
+    width: 45px;
+}
+.color-block.large {
+    width: 135px;
+}
+.color-block.very-large {
+    width: 225px;
+}
+/*.vector {
+    position: absolute;
+    width: 40%;
+    height: 115vh;
+    right: 0;
+    top: 0;
+    background-image: url("/app/tmpl/img/Vector.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}*/
+
+@media (max-width: 1024px) {
+    .right {
+        display: none;
+    }
+}
+@media (max-width: 340px) {
+    button {
+        font-size: 6vw;
+    }
+    .helloWrapper {
+        font-size: 32px;
+    }
+    .subtext {
+        font-size: 18px;
+    }
+    .twa-point-down {
+        font-size: 10px;
+    }
+    .twa-wave {
+        font-size: 12px;
+    }
+}
+@media (max-width: 280px) {
+    button {
+        font-size: 5.5vw;
+        padding: calc(28px*0.25) calc(28px*0.5);
+    }
+    button > .circle {
+        left: -15%;
+    }
+    .twa-wave {
+        font-size: 10px;
+    }
+    .helloWrapper {
+        font-size: 24px;
+    }
+    .subtext {
+        font-size: 14px;
+    }
+}
