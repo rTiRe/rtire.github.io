@@ -30,3 +30,8 @@ body {
         padding: 20px 20px;
     }
 }
+@media (max-height: 420px) {
+    body {
+        padding: 20px 10%;
+    }
+}
