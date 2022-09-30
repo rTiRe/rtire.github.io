@@ -1,11 +1,12 @@
 .firstVision {
-    width: 100%;
+    max-width: 100%;
     height: calc(100vh - 200px);
     max-height: calc(1080/16*9);
     text-align: left;
     display: flex;
     justify-content: left;
     align-items: flex-start;
+
 }
 .emoji {
     display: inline-flex;
@@ -78,8 +79,8 @@ button > .circle {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45px;
-    min-width: 90px;
+    height: 50px;
+    min-width: 100px;
     font-size: 1.5vw;
     border-radius: 30px;
     color: white;
@@ -97,19 +98,19 @@ button > .circle {
     width: auto;
 }
 .color-block.small {
-    min-width: 45px;
-    width: 45px;
+    min-width: 50px;
+    width: 50px;
 }
 .color-block.large {
-    width: 135px;
+    width: 150px;
 }
 .color-block.very-large {
-    width: 225px;
+    width: 250px;
 }
 .vector {
     position: absolute;
-    width: 40%;
-    height: 100%;
+    width: 100%;
+    height: 110%;
     right: 0;
     top: 0;
     background-image: url("/app/tmpl/img/vector.svg");

@@ -24,7 +24,7 @@ function trueSize() {
             document.querySelector(".right").style.height = 100 + containerHeight + 100 + "px";
             container.style.height = containerHeight + "px";
         }*/
-        document.querySelector(".textBlock").style.width = 45 * Math.ceil(document.querySelector(".textBlock > span").offsetWidth / 45) + "px";
+        document.querySelector(".textBlock").style.width = 55 * Math.ceil(document.querySelector(".textBlock > span").offsetWidth / 45) + "px";
     } else {
         container.style.height = document.documentElement.clientHeight - parseInt(getComputedStyle(document.body, true).paddingTop) - parseInt(getComputedStyle(document.body, true).paddingBottom) + "px";
     }
