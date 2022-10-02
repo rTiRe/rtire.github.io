@@ -123,6 +123,16 @@ button > .circle {
         display: none;
     }
 }
+@media (max-width: 768px) {
+    .firstVision {
+        height: calc(100vh - 200px);
+    }
+}
+@media (max-width: 420px) {
+    .firstVision {
+        height: calc(100vh - 40px);
+    }
+}
 @media (max-width: 340px) {
     button {
         font-size: 6vw;
@@ -156,5 +166,12 @@ button > .circle {
     }
     .subtext {
         font-size: 14px;
+    }
+}
+
+@media (max-height: 420px) and (min-width: 768px) {
+    .firstVision {
+        height: calc(100vh - 40px);
+        min-height: 330px;
     }
 }
